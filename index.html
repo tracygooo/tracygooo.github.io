@@ -291,24 +291,28 @@
 									    
 									    <div class="resume-timeline-item-header mb-2">
 										    <div class="d-flex flex-column flex-md-row">
-										        <h3 class="resume-position-title font-weight-bold mb-1">Parallel Matrix Multiplication by MPI</h3>
-										        <div class="resume-company-name ml-auto">Startup Hub</div>
+										        <h3 class="resume-position-title font-weight-bold mb-1">Matrix Multiplication on Blue Gene/Q system by MPI</h3>
+                                                <!-- <div class="resume-company-name ml-auto">Startup Hub</div> -->
 										    </div><!--//row-->
-										    <div class="resume-position-time">2018 - Present</div>
+                                            <!-- <div class="resume-position-time">2018 - Present</div> -->
 									    </div><!--//resume-timeline-item-header-->
 
 									    <div class="resume-timeline-item-desc">
-										    <p>Role description goes here ipsum dolor sit amet, consec</p>
+										    <p>Team leader</p>
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements:</h4>
-										    <p>Praesentium voluptatum </p>
 										    <ul>
-											    <li>Lorem ipsum dolor sit amet, 80% consectetuer adipiscing elit.</li>
-											    <li>At vero eos et accusamus et iusto odio dignissimos.</li>
+											    <li>Implemented Cannon's parallel algorithm for matrix multiplication</li>
+											    <li>Computed matrix multiplication with large size (1024 X 1024 to 8192 X 8192) on Blue Gene/Q by applying different compute nodes (1 - 64)</li>
+                                                <li>Programs possess strong scalability and ideal parallel efficiencies, with speedup ratio increasing from 1.00 to 70.94 when computing 8192 X 8192 size of matrix </li>
+                                                <li> Three overheads including initial alignment, communication cost, and Cartesian topology set-up are evaluated and setting up Cartesian topology contributes the most to the overhead at high MPI ranks</li>
+                                                <li>Proposed Strip Algorithm which performs 30% faster than Cannon's algorithm by reducing overheads </li>
 										    </ul>
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
 										    <ul class="list-inline">
-											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Angular</span></li>
-											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Python</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">C,&nbsp; Python</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Blue Gene/Q</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">MPI, MPI parallel I/O</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Pthreads</span></li>
 										    </ul>
 									    </div><!--//resume-timeline-item-desc-->
 
